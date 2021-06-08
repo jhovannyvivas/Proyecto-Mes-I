@@ -154,13 +154,13 @@ body{
 }
 
 .sugerencias--contenedor {
-    margin: 30px 10px;
+    margin: 30px 20px;
 }
 
 .sugerencias-contenedor--tarjeta {
 
     background-color: white;
-    height: 300px;
+    height: 260px;
     object-fit: cover;
     border-radius: 15px;
 
@@ -252,3 +252,78 @@ body{
     left: 68px;
     position: absolute;
 }
+
+.sugerencias-titulo-estrella {
+    display: flex;
+}
+
+.sugerencias--chulo {
+        width: 20px;
+        align-self: center;
+}
+
+
+.sugerencias--estrellas {
+    width: 15px;
+}
+
+.sugerencias-titulo {
+    width: 88px;
+    font-weight: bold;
+    font-size: 11px;
+    align-self: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.sugerencias--numero {
+    font-size: 10px;
+    margin-left: 70px;
+    margin-bottom: 0;
+    margin-top: 1px;
+
+}
+
+.sugerencias-titulo--autor {
+    font-size: 11px;
+    margin-left: 45px;
+    margin-bottom: 0;
+    margin-top: 1px;
+}
+
+.sugerencias--precio {
+    font-size: 10px;
+    margin-left: 55px;
+    margin-bottom: 0;
+    margin-top: 1px;
+}
+
+.sugerencias--topicos {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 65px;
+    margin-bottom: 0;
+    margin-top: 1px;
+}
+
+
+.sugerencias-teologia {
+    font-size: 9px;
+    margin-left: 75px;
+    margin-bottom: 0;
+    margin-top: 1px;
+}
+
+.sugerencias-flecha--derecha {
+    margin-left: 190px;
+    margin-right: 100px;
+}
+
+.sugerencias--parrafo {
+    margin-top: 50px;
+    font-size: 10px;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
