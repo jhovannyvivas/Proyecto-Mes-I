@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    background: rgba(248, 248, 252, 1);
+
+    font-family: 'Open Sans', sans-serif;
+    object-fit: cover;
+}
+
+.inicio--saludo {
+    display: flex;
+}
+
+.inicio--saludo h4{
+    padding-left: 20px;
+    color: rgba(88, 80, 107, 1);
+    font-size: 20px;
+
+}
+
+.inicio--saludo img {
+    align-self: center;
+    justify-self: flex-end;
+    margin-left: 150px;
+}
+
+.bienvenida-section--saludo {
+    position: relative;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: rgb(230,11,11);
+    background: linear-gradient(184deg, rgba(230,11,11,1) 0%, rgba(166,48,48,1) 100%);
+    width: 320px;
+    height: 260px;
+    margin-top: 150px;
+    color: honeydew;
+    letter-spacing: 1mm;
+
+}
+
+.bienvenida-section--saludo img {
+    position:absolute;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 180px;
+    top: -120px;
+    left: 150px;
+}
+.saludo-texto--cabecera {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.saludo-texto--compras {
+
+    padding-bottom: 10px;
+    left: 3px;
+    margin-top: 70px;
+    margin-left: 40px;
+
+}
+
+.saludo-texto--compras h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.informacion-libros--tabla {
+    align-self: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 15px 30px;
+    margin-top: 38px;
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+.informacion-libros--tabla div p {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.section--metas {
+    margin: 50px 20px;
+
+
+
+}
+
+.section-metas--cabecera {
+    display: flex;
+}
+.section-metas--cabecera img {
+    margin-left: 150px;
+    height: 22px;
+    align-self: center;
+}
+
+.section-metas--cabecera p {
+    display: inline;
+    padding-left: 20px;
+    color: rgba(88, 80, 107, 1);
+    font-size: 20px;
+
+}
+
+.metas-div--contenedores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2mm;
+    
+}
+
+.metas-div--contenedor {
+
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 1);
+    background-color: white;
+    width: 160px;    
+
+}
+
+.metas-div--contenedor img {
+    width: 50px;
+    height: 85px;
+    margin: 15px 20px 2px 15px;
+}
+
+.metas-div--avance {
+    display: flex;
+}
+
+.metas-div--avance div img {
+    width: 80px;
+    margin: 0;
+    justify-content: center;
+}
+.metas-avance--letras {
+    margin-left: 10px  ;
+
+}
+
+.metas-avance--pags {
+    color: green;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.metas-avance--letras p {
+    margin-top: 2px;
+}
+
+.sugerencias--contenedor {
+    margin: 30px 10px;
+}
+
+.sugerencias-contenedor--tarjeta {
+
+    background-color: white;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.sugerencias--columnas {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 140px;
+    border-radius: 15px;
+
+}
+
+
+
+.sugerencias--columnas img {
+    position: absolute;
+
+}
+
+.sugerencias--imagen1 {
+    left: 53px;
+    top: 16px;
+}
+
+.sugerencias--imagen2 {
+    top: 30px;
+    left: 33px;
+}
+
+.sugerencias--imagen3 {
+    left: 30px;
+    top: 60px;
+
+}
+
+.sugerencias--imagen4 {
+    left: 31px;
+    top: 85px;
+}
+
+.sugerencias--imagen5 {
+    left: 40px;
+    top: 105px;
+}
+
+.sugerencias--imagen6 {
+    left: 58px;
+    top: 121px;
+}
+
+.sugerencias--imagen7 {
+    left: 113px;
+    top: 111px;
+}
+
+.sugerencias--imagen8 {
+    left: 135px;
+    top: 73px;
+}
+
+.sugerencias--imagen9 {
+    left: 129px;
+    top: 33px;
+}
+
+.sugerencias--imagen10 {
+    left: 94px;
+    top: 15px;
+}
+
