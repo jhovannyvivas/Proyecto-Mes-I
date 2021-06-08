@@ -233,3 +233,22 @@ body{
     top: 15px;
 }
 
+.sugerencias--robot {
+    top: 40px;
+    left: 75px;
+}
+
+.sugerencias-imagen--letras1 {
+    font-size: 10px;
+    top: 70px;
+    left: 73px;
+    display: block;
+    position: absolute;
+}
+
+.sugerencias-imagen--letras2 {
+    font-size: 13px;
+    top: 81px;
+    left: 68px;
+    position: absolute;
+}
