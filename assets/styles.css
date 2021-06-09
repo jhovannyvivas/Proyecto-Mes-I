@@ -423,7 +423,21 @@ body{
     margin: 5px 20px;
 }
 
+footer {
+    margin: 20px 24px;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+}
 
+.filas-footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
 
