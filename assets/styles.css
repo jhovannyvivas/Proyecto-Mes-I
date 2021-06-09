@@ -351,12 +351,12 @@ body{
 
 .base-contenedor--video {
 
-    height: 75px;
+    height: 20px;
 }
 
 .videos--base {
     position: absolute;
-    bottom: 20px;
+    top: 180px;
     width: 100%;
     border-radius: 0 0 15px 15px;
 
@@ -374,8 +374,57 @@ body{
 
 .frase-texto {
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     left: 30px;
     color: white;
 
 }
+
+.puntos--video {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.puntos--video img {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.tips-contenedor {
+    margin: 80px 20px;
+    background-color: white;
+    border-radius: 18px;
+    padding: 20px 0;
+}
+
+.tips-columnas {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.tips-columnas div {
+    display: flex;
+}
+
+.tips-columnas div p {
+    color:rgba(129, 118, 153, 1);
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 25px;
+    align-self: center;
+}
+
+.tips-columnas div img {
+    height: 70px;
+    width: 80px;
+    border-radius: 18px;
+    margin: 5px 20px;
+}
+
+
+
+
+
+
