@@ -1,0 +1,58 @@
+body{
+    display: block;
+
+}
+
+.titulo {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.pregunta11 {
+    margin: 25px auto;
+}
+
+.pregunta22 {
+    margin: 25px auto;
+}
+
+
+
+.correcto1 {
+    color: green;
+    font-size: xx-large;
+}
+
+.incorrecto1 {
+    color: red;
+    font-size: xx-large;
+}
+
+
+.correcto2 {
+    color: green;
+    font-size: xx-large;
+}
+
+.incorrecto2 {
+    color: red;
+    font-size: xx-large;
+}
+
+.pregunta11 {
+    text-align: center;
+    justify-self: center;
+}
+
+.pregunta22 {
+    text-align: center;
+    justify-self: center;
+}
+
+#correcto, #incorrecto, #correcto2, #incorrecto2{
+    display: none;
+}
+
+#pregunta2 {
+    display: none;
+}

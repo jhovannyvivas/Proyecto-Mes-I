@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+       /* var nombre;
+        nombre = prompt("De donde eres");
+        alert(nombre) */
+
+        /*function suma(valor1,valor2) {
+            if (valor1 > 10 && valor2 > 20) {
+
+                return valor1+valor2
+            } else if (valor1 < 5 || valor2<10) {
+                return valor1*valor2
+            }
+            
+            
+        }
+
+        console.log(suma(4,21)); */
+
+        usuarios=[
+            {
+                nombre: 'Julian',
+                contraseña: '123'
+            },
+            {
+                nombre: 'Alcira',
+                contraseña: 'abc'
+            },
+            { 
+                nombre: 'Jairo',
+                contraseña: '123'
+            },
+            {
+                nombre: 'carmen',
+                contraseña: 'abc'
+            }
+        ]
+
+        var user=prompt('Por favor su usuario');
+        var pass=prompt('ahora su contraseña');
+
+        notas=[
+            {
+                nombre: 'Julian',
+                nota: '4.5'
+            },
+            {
+                nombre: 'Alcira',
+                nota: '5'
+            },
+            {
+                nombre: 'Jairo',
+                nota: '4.8'
+            },
+            {
+                nombre: 'carmen',
+                nota: '4.9'
+            }
+        ]
+
+
+
+        function usuarioValido(primera, segunda) {
+
+
+            console.log(usuarios.length);
+            for(var i=0; i < usuarios.length; i++){
+               
+
+
+                if(primera===usuarios[i].nombre && segunda===usuarios[i].contraseña){
+
+
+                    return true;
+
+
+                    
+
+                } else {
+                    
+                    
+                    return false;
+
+
+                }
+
+
+            }
+        }
+
+        usuarioValido(user,pass);
+        
+ 
+
+        tablerodeNotas(user,pass);
+
+        function tablerodeNotas (us,pss) {
+            if(usuarioValido(us, pss)){
+     
+            for(var i=0; i<usuarios.length; i++){
+
+                if(us===usuarios[i].nombre && pss===usuarios[i].contraseña) {
+                    console.log(notas[i].nombre);
+                    console.log(notas[i].nota);
+                }
+            }
+            }else {
+                alert('usario y/o contraseña invalidos');
+
+            }
+
+           
+        } 
+        
+
+    </script>
+</body>
+</html>
